@@ -1,6 +1,8 @@
 # Travel Diaries
 * Travel blog.
-:grey_exclamation: Open TravelDiaries.html
+```
+Open TravelDiaries.html
+```
 
 ## Home
 ![Home](screenshots/1.png)
