@@ -1,5 +1,5 @@
 # Travel Diaries
-Travel blog.
+* Travel blog.
 :grey_exclamation: Open TravelDiaries.html
 
 ## Home
