@@ -1,0 +1,422 @@
+body
+{
+	margin 0;
+}
+
+header
+{
+	margin : auto;
+	background : url("Images/wandiaries.png");
+	background-size : cover;
+	width : 1200px;
+	height : 300px;
+	border-radius : 30px;
+}
+
+nav
+{
+	margin-top : 200px;
+	margin-right : 50px;
+	float : right;
+}
+
+nav li
+{
+	display : inline;
+	list-style-type : none;
+}
+ nav a
+ {
+	 text-decoration : none;
+	 color : #fff;
+	 font-size : 40px;
+	 font-family : "Peach Milk";
+ }
+
+ .arrow
+ {
+	 width : 1200px;
+	 margin-top : 25px;
+	 margin-left : auto;
+	 margin-right : auto;
+ }
+ 
+.arrow img
+ {
+	 margin-left : 100px;
+	 width : 1000px;
+ }
+ 
+ @keyframes slider 
+ {
+	 0%
+	 {
+		 left : 0;
+	 }
+	 
+	 25%
+	 {
+		 left : 10;
+	 }
+	 
+	 45%
+	 {
+		 left : -25%;
+	 }
+	 
+	 50%
+	 {
+		 left : -30%;
+	 }
+	 
+	 70%
+	 {
+		 left : -50%;
+	 }
+	 
+	 75%
+	 {
+		 left : -60%;
+	 }
+	 
+	 95%
+	 {
+		 left : -75%;
+	 }
+	 
+	 100%
+	 {
+		 left : -100%;
+	 }
+ }
+
+ 
+ #slider
+ {
+	 margin-top : 25px;
+	 margin-left : 200px;
+	 margin-right : 200px;
+	 overflow : hidden;
+ }
+ 
+ #slider figure img
+ {
+	 height : 300px;
+ }
+ 
+ #slider figure
+ {
+	 margin : 0;
+	 position : relative;
+	 width : 500%;
+	 animation : 10s slider infinite;
+ }
+ 
+ .seeArticle
+ {
+	 margin-top : -4px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 background-color : rgba(0,0,0,0.9);
+	 width : 1083px;
+	 height : 50px;
+	 border-bottom-left-radius: 20px;
+	 border-bottom-right-radius: 20px;
+ }
+ 
+ .seeArticle p
+ {
+	 float : left;
+	 color : #fff;
+	 font-family : "FuturaHandwritten";
+	 font-size : 15px;
+	 padding-left : 20px;
+ }
+ 
+ #articleBttn
+ {
+	 float : right;
+	 margin-top : 13px;
+	 margin-right : 20px;
+	 border-style : none;
+	 height : 25px;
+	 width : 100px;
+	 border-radius : 5px;
+	 font-size : 15px;
+	 font-family : "FuturaHandwritten";
+	 background-color : rgba(255,255,255,255,0.8);
+ }
+ 
+ section
+ {
+	 margin-left : 200px;
+ }
+ 
+ article
+ {
+	 float : left;
+	 width : 650px;
+ }
+ 
+ article h1
+ {
+	 font-size : 40px;
+	 font-family : "Peach Milk";
+ }
+ 
+ article p
+ {
+	 text-align : justify;
+	 font-family : "FuturaHandwritten";
+ }
+ 
+ aside
+ {
+	 float : right;
+	 width : 400px;
+	 height : 560px;
+	 margin-top : 40px;
+	 margin-right : 200px;
+	 background-color : #000;
+	 border-radius : 40px;
+ }
+ 
+ aside h1
+ {
+	 text-align : center;
+	 font-size : 40px;
+	 font-family : "Peach Milk";
+	 color : #fff;
+ }
+ 
+#me
+ {
+	 margin-left: 50px;
+ }
+ 
+ aside p
+ {
+	 color : #fff;
+	 margin-left : 50px;
+	 margin-right : 50px;
+	 font-family : "FuturaHandwritten";
+	 text-align : justify;
+ }
+ 
+ #fb 
+ {
+	margin-top : 10px;
+	margin-left : 100px;
+ }
+ 
+ #twttr
+ {
+	 margin-left : 20px;
+ }
+ 
+ .tweet
+ {
+	 text-align : center;
+	 float : left;
+	 margin-left : 200px;
+	 width : 350px;
+	 height : 200px;
+ }
+ 
+ .tweet h1
+ {
+	font-family : "Peach Milk";	
+ }
+ 
+ .tweet p
+ {
+	 font-family : "FuturaHandwritten";
+ }
+ 
+ .fpics
+ {
+	 color : #fff;
+	 text-align : center;
+	 float : left;
+	 width : 400px;
+	 height : 200px;
+	 background-color : #000;
+	 border-radius : 20px;
+ }
+ 
+ .fpics h1
+ {
+	 font-family : "Peach Milk";	
+ }
+ 
+ .friends
+ {
+	  width : 450px;
+	 height : 200px;
+	 float : left;
+	 margin-left : 50px;
+ }
+ 
+ .friends h1
+ {
+	 font-family : "Peach Milk";	
+ }
+ 
+ .friends li
+ {
+	 font-family : "FuturaHandwritten";
+ }
+ 
+ /* SEE ARTICLE */
+ 
+ .p1
+ {
+	 margin-left: 350px;
+	 width : 800px;
+ }
+ 
+ .p1 img
+ {
+	 width : 800px;
+	 border-radius : 30px;
+ }
+ 
+ .p1 h1
+ {
+	 font-family : "Peach Milk";
+	 text-align : center;
+ }
+ 
+ .p1 p
+ {
+	 text-align : justify;
+	 font-family : "FuturaHandwritten";
+ }
+ 
+ .p2
+ {
+	 margin-left: 350px;
+	 width : 800px;
+ }
+ 
+ .p2 img
+ {
+	 width : 800px;
+	 border-radius : 30px;
+ }
+ 
+ .p2 h1
+ {
+	 font-family : "Peach Milk";
+	 text-align : center;
+ }
+ 
+ .p2 p
+ {
+	 text-align : justify;
+	 font-family : "FuturaHandwritten";
+ }
+ 
+ .p3
+ {
+	 margin-left: 350px;
+	 width : 800px;
+ }
+ 
+ .p3 img
+ {
+	 width : 800px;
+	 border-radius : 30px;
+ }
+ 
+ .p3 h1
+ {
+	 font-family : "Peach Milk";
+	 text-align : center;
+ }
+ 
+ .p3 p
+ {
+	 text-align : justify;
+	 font-family : "FuturaHandwritten";
+ }
+ 
+ /* FACEBOOK */
+ 
+ .facebook
+ {
+	 text-align : center;
+	 margin-top : -100px;
+	 background : url("Images/1.png");
+	 background-size : cover;
+	 height : 800px;
+ }
+ 
+ .facebook h1
+ {
+	 color : #fff;
+	 font-family : "Summeron";
+	 font-size : 100px;
+	 padding-top : 200px;
+ }
+ 
+ .twitter
+ {
+	 text-align : center;
+	 margin-top : -100px;
+	 background : url("Images/2.png");
+	 background-size : cover;
+	 height : 800px;
+ }
+ 
+ .twitter h1
+ {
+	 color : #fff;
+	 font-family : "Summeron";
+	 font-size : 100px;
+	 padding-top : 200px;
+ }
+ 
+ .instagram
+ {
+	 text-align : center;
+	 margin-top : -100px;
+	 background : url("Images/3.png");
+	 background-size : cover;
+	 height : 800px;
+ }
+ 
+ .instagram h1
+ {
+	 color : #fff;
+	 font-family : "Summeron";
+	 font-size : 100px;
+	 padding-top : 200px;
+ }
+ 
+  .tumblr
+ {
+	 text-align : center;
+	 margin-top : -100px;
+	 background : url("Images/4.png");
+	 background-size : cover;
+	 height : 800px;
+ }
+ 
+ .tumblr h1
+ {
+	 color : #fff;
+	 font-family : "Summeron";
+	 font-size : 100px;
+	 padding-top : 200px;
+ }
+ 
+ .pic1 img
+ {
+	 height : 100%;
+ }
+ 
+ .pic2 img
+ {
+	 height : 100%;
+ }
